@@ -1,0 +1,16 @@
+EcoNest real email notifications (SSL SMTP, port 465)
+
+Windows PowerShell (in the SAME terminal before running the server):
+$env:ECONEST_SMTP_HOST="smtp.gmail.com"
+$env:ECONEST_SMTP_PORT="465"
+$env:ECONEST_SMTP_USER="youraddress@gmail.com"
+$env:ECONEST_SMTP_FROM="youraddress@gmail.com"
+$env:ECONEST_SMTP_PASSWORD="your-16-character-google-app-password"
+.\run.bat
+
+Google requires a Google App Password (when available with 2-Step Verification), not your ordinary account password. Never put passwords into source files or commit them.
+
+The notification center is at http://localhost:8080/html/notifications.html
+On assigning an order, the agent is emailed. On dispatch, the client is emailed. Each attempt is recorded in xml/outbox.xml with Sent, Failed or Not configured status. SMTP errors are recorded for troubleshooting.
+
+For production, add authentication/authorization to the API, use a secure mail provider and background retry queue.

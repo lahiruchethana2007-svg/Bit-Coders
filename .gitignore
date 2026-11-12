@@ -1,0 +1,27 @@
+
+# Gmail SMTP credentials
+.env
+.env.*
+!.env.example
+secrets.properties
+
+# Java compiled files
+*.class
+out/
+bin/
+build/
+target/
+
+# VS Code settings
+.vscode/
+.idea/
+
+# Uploaded images (local files)
+uploads/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

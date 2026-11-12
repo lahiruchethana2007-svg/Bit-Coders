@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<agents>
+  <record>
+    <id>1</id>
+    <name>Sunny Leon</name>
+    <phone>0712223344</phone>
+    <email>kamal@example.com</email>
+    <vehicleType>Van</vehicleType>
+    <vehicleNumber>WP CAB-1234</vehicleNumber>
+    <imageUrl>/uploads/agents/203aa735-5d79-4a25-a220-35482ef60018.webp</imageUrl>
+  </record>
+  <record>
+    <id>2</id>
+    <name>Sunil Fernando</name>
+    <phone>0755556677</phone>
+    <email>sunil@example.com</email>
+    <vehicleType>Three-wheeler</vehicleType>
+    <vehicleNumber>WP QA-5678</vehicleNumber>
+    <imageUrl>/uploads/agents/2d5e84ad-3af8-47a9-a63e-a68519e0506c.jpg</imageUrl>
+  </record>
+  <record>
+    <id>3</id>
+    <name>jhjb</name>
+    <phone>0788525919</phone>
+    <email>lahiruchethana2007@gmail.com</email>
+    <vehicleType>Three-wheeler</vehicleType>
+    <vehicleNumber>WP CAB-1865</vehicleNumber>
+    <imageUrl>/uploads/agents/964eac0f-dc78-40c0-8c40-5ca7de6ee63f.jpg</imageUrl>
+  </record>
+</agents>

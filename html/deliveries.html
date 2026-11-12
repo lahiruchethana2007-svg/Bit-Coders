@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deliveries - EcoNest</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header><h1>EcoNest</h1></header>
+<nav id="nav"></nav>
+<main>
+  <div class="page-heading"><div><p class="eyebrow">LOGISTICS OVERVIEW</p><h2>Delivery Management</h2><p class="muted">Assign agents, track orders and trigger automatic email alerts.</p></div><a class="action-link" href="notifications.html">View notifications →</a></div><div class="metric-grid"><div class="metric"><span>Total deliveries</span><strong id="metricTotal">0</strong></div><div class="metric"><span>Assigned</span><strong id="metricAssigned">0</strong></div><div class="metric"><span>Dispatched</span><strong id="metricDispatched">0</strong></div><div class="metric"><span>Delivered</span><strong id="metricDelivered">0</strong></div></div>
+  <div id="message" role="status"></div>
+  <div class="card">
+    <h3>Assign a delivery agent</h3>
+    <form id="assignForm" class="form-grid">
+      <label>Order <select name="orderId" id="orderId"></select></label>
+      <label>Delivery agent <select name="agentId" id="agentId"></select></label>
+      <label>Delivery date <input name="scheduledDate" id="scheduledDate" type="date" required></label>
+      <div><button type="submit">Assign and email agent</button></div>
+    </form>
+  </div>
+  <div class="card table-wrap"><div class="section-head"><h3>Delivery tracker</h3><select id="statusFilter" aria-label="Filter deliveries"><option value="">All deliveries</option><option>Assigned</option><option>Dispatched</option><option>Delivered</option></select></div>
+    <table>
+      <thead><tr><th>Order</th><th>Client</th><th>Agent</th><th>Date</th><th>Status</th><th>Update</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <div class="card table-wrap">
+    <div class="section-head"><h3>Recent notifications</h3><a href="notifications.html">Open notification center →</a></div>
+    <p class="note">Email results are logged in xml/outbox.xml. Configure SMTP to send real emails.</p>
+    <table>
+      <thead><tr><th>Time</th><th>To</th><th>Subject</th><th>Result</th></tr></thead>
+      <tbody id="emails"></tbody>
+    </table>
+  </div>
+</main>
+<script src="../js/common.js"></script>
+<script src="../js/deliveries.js"></script>
+</body>
+</html>

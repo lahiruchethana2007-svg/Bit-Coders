@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reports - EcoNest</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header><h1>EcoNest</h1></header>
+<nav id="nav"></nav>
+<main>
+  <h2>Monthly report</h2>
+  <div id="message" role="status"></div>
+  <div class="card">
+    <form id="reportForm" class="form-grid">
+      <label>Month <input id="month" type="month" required></label>
+      <div><button type="submit">Show report</button></div>
+    </form>
+  </div>
+  <div id="report"></div>
+</main>
+<script src="../js/common.js"></script>
+<script src="../js/reports.js"></script>
+</body>
+</html>

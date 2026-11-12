@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stock>
+  <record>
+    <id>1</id>
+    <productId>1</productId>
+    <quantity>20</quantity>
+    <reorderLevel>5</reorderLevel>
+  </record>
+  <record>
+    <id>2</id>
+    <productId>2</productId>
+    <quantity>8</quantity>
+    <reorderLevel>10</reorderLevel>
+  </record>
+  <record>
+    <id>3</id>
+    <productId>3</productId>
+    <quantity>12</quantity>
+    <reorderLevel>5</reorderLevel>
+  </record>
+</stock>

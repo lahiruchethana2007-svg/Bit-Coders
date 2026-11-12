@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orders - EcoNest</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header><h1>EcoNest</h1></header>
+<nav id="nav"></nav>
+<main>
+  <h2>Orders</h2>
+  <div id="message" role="status"></div>
+  <div class="card">
+    <h3>New order</h3>
+    <div class="form-grid">
+      <label>Client <select id="clientId"></select></label>
+      <label>Product <select id="productId"></select></label>
+      <label>Quantity <input id="quantity" type="number" min="1" value="1"></label>
+      <div><button type="button" id="addItem">Add item</button></div>
+    </div>
+    <ul id="lines"></ul>
+    <p><strong id="total">Total: Rs. 0.00</strong></p>
+    <button type="button" id="placeOrder">Place order</button>
+  </div>
+  <div class="card table-wrap">
+    <table>
+      <thead><tr><th>Order</th><th>Date</th><th>Client</th><th>Items</th><th>Total</th><th>Status</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+</main>
+<script src="../js/common.js"></script>
+<script src="../js/orders.js"></script>
+</body>
+</html>

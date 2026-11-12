@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<products>
+  <record>
+    <id>1</id>
+    <name>Snake Plant</name>
+    <type>Plant</type>
+    <price>1200.00</price>
+    <ecoRating>5</ecoRating>
+    <imageUrl>/uploads/products/d92d62e8-aff7-48c4-856b-ab685ee556f8.jpg</imageUrl>
+  </record>
+  <record>
+    <id>2</id>
+    <name>Clay Planter (Medium)</name>
+    <type>Planter</type>
+    <price>850.00</price>
+    <ecoRating>4</ecoRating>
+    <imageUrl>/uploads/products/7285b755-57d4-4191-abd7-18be468b9c11.jpg</imageUrl>
+  </record>
+  <record>
+    <id>3</id>
+    <name>Herb Garden Kit</name>
+    <type>Gardening kit</type>
+    <price>2500.00</price>
+    <ecoRating>5</ecoRating>
+    <imageUrl>/uploads/products/a91bb243-56de-429d-b64a-ff94f020c59f.jpg</imageUrl>
+  </record>
+</products>

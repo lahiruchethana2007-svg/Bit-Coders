@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clients>
+  <record>
+    <id>1</id>
+    <name>Nimali Perera</name>
+    <type>Household</type>
+    <phone>0771234567</phone>
+    <email>nimali@example.com</email>
+    <address>12 Beach Road, Negombo</address>
+  </record>
+  <record>
+    <id>2</id>
+    <name>Lanka Offices Pvt Ltd</name>
+    <type>Office</type>
+    <phone>0112345678</phone>
+    <email>admin@lankaoffices.example.com</email>
+    <address>45 Galle Road, Colombo 03</address>
+  </record>
+</clients>
